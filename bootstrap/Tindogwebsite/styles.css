@@ -1,0 +1,160 @@
+body{
+    font-family: 'Montserrat';
+}
+
+/* spotlight */
+
+#spotlight {
+    background-color: #FF4C68;
+    height: 800px;
+}
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+#spotlight div.row h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.spotlight-text button {
+    margin-top: 70px;
+}
+/* Phone Image */
+.phone-image {
+    width: 23%;
+    height: 93%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+#features div.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+#features div.feature-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#features div.feature-box i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+#features div.feature-box i:hover{
+    color: #ff4c68;
+}
+
+/* middlepart section */
+#middlepart {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.middlepart h2{
+    color: black;
+}
+
+.middlepart-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* websites */
+
+#website {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#website img.web-image { 
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+#pricing div.pricing-column {
+    padding: 3% 2%;
+}
+#pricing div.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#pricing div.card h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    
+}
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 4%;
+}
+#cta h3.cta-heading {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 7% 15%;
+}
+
+/* foot */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+    height: 350px;
+}
+
+.social-media-icons {
+    padding: 1%;
+}
+
+@media (max-width:990px) {
+    #spotlight {
+        text-align: center;
+    }
+
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
